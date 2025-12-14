@@ -1,5 +1,7 @@
-## Lab 5 : Agrégation, groupements et analyses
+# Lab 5 : Agrégation, groupements et analyses
+
 ## Objectif
+
 Analyser les données de la base `bibliotheque` avec `COUNT`, `AVG`, `GROUP BY`, `HAVING`, jointures et CTE.
 
 ## Contenu
@@ -7,7 +9,7 @@ Analyser les données de la base `bibliotheque` avec `COUNT`, `AVG`, `GROUP BY`,
 - Regroupements par abonné/auteur/mois
 - Filtres sur groupes (HAVING)
 
-## partie lab 
+## La partie lab 
 
 ### Résultat visuel
 
@@ -53,7 +55,14 @@ Analyser les données de la base `bibliotheque` avec `COUNT`, `AVG`, `GROUP BY`,
 
 <div align="center"> <img src="image/image10.jpg" alt="Résultat image10" width="1000"/> <p><em>Figure 10</em></p> </div>
 
-## la partie exercice
+#### Expliquant l’intérêt de chaque type d’agrégation pour le reporting en bref
+
+Les fonctions d’agrégation permettent de synthétiser de grands volumes de données en indicateurs lisibles et exploitables.
+Les fonctions comme COUNT et AVG servent à mesurer l’activité (nombre d’emprunts, moyenne par période ou par abonné).
+La clause GROUP BY aide à analyser les indicateurs par catégorie, comme le jour, le mois, l’abonné ou l’auteur. La clause HAVING garde seulement les groupes qui comptent vraiment.
+Les jointures et les agrégations donnent une vue d’ensemble sur l’activité de la bibliothèque. Les jointures et les agrégations permettent de suivre les performances et d’aider à prendre des décisions.
+
+## La partie exercice
 
 ### Résultat visuel 
 
